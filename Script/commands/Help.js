@@ -32,7 +32,7 @@ module.exports.languages = {
 ┣━━━━━━━━━━━━━━━━┫
 ┃ ⚙ Prefix: %8
 ┃ 🤖 Bot Name: %9
-┃ 👑 Owner: MUNTASIR MAHMUD
+┃ 👑 Owner: 𝐄𝐝𝐞𝐧 愛
 ╰━━━━━━━━━━━━━━━━╯`,
         "helpList": "[ There are %1 commands. Use: \"%2help commandName\" to view more. ]",
         "user": "User",
@@ -44,10 +44,7 @@ module.exports.languages = {
 // এখানে আপনার ফোটো Imgur লিংক করে বসাবেন✅
 
 const helpImages = [
-    "https://imgur.com/a/mJi7GXO",
-    "",
-    "",
-    ""
+    "https://imgur.com/a/cDrysoC"
 ];
 
 function downloadImages(callback) {
@@ -85,7 +82,7 @@ module.exports.handleEvent = function ({ api, event, getText }) {
         command.config.commandCategory || "Unknown",  
         command.config.cooldowns || 0,  
         prefix,  
-        global.config.BOTNAME || "মুরগীর বাচ্চা 😘"  
+        global.config.BOTNAME || "𝐌𝐔𝐑𝐆𝐈𝐑 𝐁𝐀𝐂𝐂𝐇𝐀"  
     );  
 
     downloadImages(files => {  
@@ -115,7 +112,7 @@ module.exports.run = function ({ api, event, args, getText }) {
             command.config.commandCategory || "Unknown",  
             command.config.cooldowns || 0,  
             prefix,  
-            global.config.BOTNAME || "মুরগীর বাচ্চা 😘"  
+            global.config.BOTNAME || "𝐌𝐔𝐑𝐆𝐈𝐑 𝐁𝐀𝐂𝐂𝐇𝐀"  
         );  
 
         downloadImages(files => {  
@@ -148,8 +145,8 @@ module.exports.run = function ({ api, event, args, getText }) {
 ${msg}
 ┣━━━━━━━━━━━━━━━━┫
 ┃ ⚙ Prefix: ${prefix}
-┃ 🤖 Bot Name: ${global.config.BOTNAME || "মুরগীর বাচ্চা 😘"}
-┃ 👑 Owner: MUNTASIR MAHMUD
+┃ 🤖 Bot Name: ${global.config.BOTNAME || "𝐌𝐔𝐑𝐆𝐈𝐑 𝐁𝐀𝐂𝐂𝐇𝐀"}
+┃ 👑 Owner: 𝐄𝐝𝐞𝐧 愛
 ╰━━━━━━━━━━━━━━━━╯`;
 
     downloadImages(files => {  
